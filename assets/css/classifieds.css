@@ -1,0 +1,93 @@
+.classified-single,
+.classified-excerpt {
+  width: 100%;
+}
+.classified-single .classified-price,
+.classified-excerpt .classified-price {
+  margin: 10px 0;
+}
+.classified-single .classified-price span,
+.classified-excerpt .classified-price span {
+  padding: 10px 0;
+}
+
+.classified-single .classified-author {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.classified-single .classified-author .classified-avatar {
+  margin-right: 10px;
+}
+.classified-single .notice-error {
+  border-width: 1px 1px 1px 10px;
+  border-style: solid;
+  border-color: red;
+  background-color: white;
+  padding: 15px 20px;
+}
+.classified-single .notice-error p {
+  margin: 0;
+}
+
+.classified-price-is-set .classified-single,
+.classified-price-is-set .classified-excerpt {
+  width: 100%;
+}
+.classified-price-is-set .classified-single .classified-price,
+.classified-price-is-set .classified-excerpt .classified-price {
+  text-align: right;
+}
+.classified-price-is-set .classified-single .classified-price span,
+.classified-price-is-set .classified-excerpt .classified-price span {
+  padding: 10px 30px;
+  display: inline-block;
+  background: #b44;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.classified-price-is-not-set .classified-single .price,
+.classified-price-is-not-set .classified-excerpt .price {
+  opacity: .5;
+}
+
+.classified-icon {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.classified-icon .dashicons {
+  margin-right: 10px;
+}
+
+.classified-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.classified-grid > span {
+  padding: 10px;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 1px 0;
+}
+.classified-grid > span:first-child {
+  padding-left: 0;
+  white-space: nowrap;
+  opacity: .7;
+}
+.classified-grid > span:last-child {
+  padding-right: 0;
+}
+.classified-grid + .classified-grid > span {
+  border-top-width: 0;
+}
+.classified-grid:first-child {
+  margin-top: 1em;
+}
+.classified-grid:last-child {
+  margin-bottom: 1em;
+}

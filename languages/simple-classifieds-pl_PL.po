@@ -1,0 +1,494 @@
+# Translation of Plugins - Fleet - Development (trunk) in Polish
+# This file is distributed under the same license as the Plugins - Fleet - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fleet - Development (trunk)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/classifieds\n"
+"POT-Creation-Date: 2021-03-20 15:16:15+00:00\n"
+"PO-Revision-Date: 2019-11-07 14:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#: assets/templates/avatar.php:7
+msgid "%1$s (%2$s ago)"
+msgstr "%1$s (%2$s temu)"
+
+#: assets/templates/category.php:8
+msgid "Category:"
+msgstr "Kategoria:"
+
+#: assets/templates/contact.php:4
+msgid "Reveal contact info"
+msgstr "Pokaż dane kontaktowe"
+
+#: assets/templates/location.php:8
+msgid "Location:"
+msgstr "Lokalizacja:"
+
+#: etc/options.php:13
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+#: etc/options.php:19
+#, fuzzy
+msgid "Emails"
+msgstr "Email"
+
+#: etc/options.php:23
+msgid "Reply-to e-mail address"
+msgstr ""
+
+#: etc/options.php:28
+msgid "Reply to"
+msgstr ""
+
+#: etc/options.php:34
+msgid "Administrator notification of new classified"
+msgstr ""
+
+#: etc/options.php:38 etc/options.php:69
+msgid "Subject"
+msgstr ""
+
+#: etc/options.php:39 etc/options.php:70
+msgid "New Classified %CLASSIFIED_TITLE%"
+msgstr ""
+
+#: etc/options.php:45 etc/options.php:77
+#, fuzzy
+msgid "Content"
+msgstr "Kontakt"
+
+#: etc/options.php:48 etc/options.php:80
+msgid ""
+"Hello,\n"
+"New classified: %CLASSIFIED_TITLE% %CLASSIFIED_PERMALINK%\n"
+"Categories: %CLASSIFIED_CATEGORIES%\n"
+"Author login: %CLASSIFIED_AUTHOR_LOGIN%\n"
+"Author email: %CLASSIFIED_AUTHOR_EMAIL%\n"
+"\n"
+"Content:\n"
+"%CLASSIFIED_CONTENT%\n"
+msgstr ""
+
+#: etc/options.php:64
+#, fuzzy
+msgid "User  notification of new classified"
+msgstr "Dodaj do ogłoszenia"
+
+#: etc/options.php:96
+msgid "General"
+msgstr ""
+
+#: etc/options.php:101
+msgid "Allow to add"
+msgstr ""
+
+#: etc/options.php:108 vendor/iworks/classifieds/posttypes/classified.php:339
+#: vendor/iworks/classifieds/posttypes/classified.php:364
+msgid "Classified"
+msgstr "Ogłoszenie"
+
+#: etc/options.php:113
+#, fuzzy
+msgid "Category"
+msgstr "Kategoria:"
+
+#: etc/options.php:117
+#, fuzzy
+msgid "Use classified categories."
+msgstr "Atrybuty ogłoszenia"
+
+#: etc/options.php:122
+#, fuzzy
+msgid "Category slug"
+msgstr "Kategoria:"
+
+#: etc/options.php:124
+#, fuzzy
+msgid "Classified category slug."
+msgstr "Ogłoszenia"
+
+#: etc/options.php:130
+msgid "Renewal"
+msgstr ""
+
+#: etc/options.php:134
+msgid "Force to renevel after selected period of time."
+msgstr ""
+
+#: etc/options.php:139
+msgid "Renewal days"
+msgstr ""
+
+#: etc/options.php:143
+msgid "Number of days to show classified.."
+msgstr ""
+
+#: etc/options.php:147
+msgid "Listing"
+msgstr ""
+
+#: etc/options.php:152
+msgid "Show social media links"
+msgstr ""
+
+#: etc/options.php:160
+msgid "Show boats table"
+msgstr ""
+
+#: etc/options.php:168
+msgid "Tag to person"
+msgstr ""
+
+#: etc/options.php:169
+msgid "Replace person tag by fleet person."
+msgstr ""
+
+#: etc/options.php:177
+msgid "Add posts list"
+msgstr ""
+
+#: etc/options.php:178
+msgid "Add posts list to person with matching tag."
+msgstr ""
+
+#: etc/options.php:185
+msgid "Boats"
+msgstr ""
+
+#: etc/options.php:190
+msgid "Add crew manually"
+msgstr ""
+
+#: etc/options.php:198
+msgid "Add extra data"
+msgstr ""
+
+#: etc/options.php:206
+msgid "Add boat social media"
+msgstr ""
+
+#: etc/options.php:214
+msgid "Boat taxonomies"
+msgstr ""
+
+#: etc/options.php:216
+msgid "Sail manufacturer"
+msgstr ""
+
+#: etc/options.php:217
+msgid "Mast manufacturer"
+msgstr ""
+
+#: etc/options.php:218
+msgid "Hull manufacturer"
+msgstr ""
+
+#: etc/options.php:224
+#, fuzzy
+msgid "Auto add feature image"
+msgstr "Ustaw obrazek wyróżniający"
+
+#: etc/options.php:225
+msgid ""
+"Automagicaly add feature image, if there is some taged with boat number."
+msgstr ""
+
+#: etc/options.php:236
+msgid "Polish zloty"
+msgstr "Polski złoty"
+
+#: etc/options.php:237
+msgid "PLN"
+msgstr "PLN"
+
+#: etc/options.php:241
+msgid "European euro"
+msgstr "Euro"
+
+#: etc/options.php:245
+msgid "United States dollar"
+msgstr "Dolar amerykański"
+
+#: simple-classifieds.php:101
+#, fuzzy
+msgid "Simple Classifieds"
+msgstr "Podejrzyj ogłoszenia"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:97
+msgid "Price is not set."
+msgstr "Cena nie została podana."
+
+#: vendor/iworks/classifieds/posttypes/classified.php:240
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: vendor/iworks/classifieds/posttypes/classified.php:270
+msgid "Name"
+msgstr "Imię"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:271
+msgid "Email"
+msgstr "Email"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:272
+msgid "Phone"
+msgstr "Telefon"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:276
+#: vendor/iworks/classifieds/posttypes/classified.php:476
+msgid "Price"
+msgstr "Cena"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:338
+#: vendor/iworks/classifieds/posttypes/classified.php:340
+#: vendor/iworks/classifieds/posttypes/classified.php:342
+msgid "Classifieds"
+msgstr "Ogłoszenia"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:341
+msgid "Classified Attributes"
+msgstr "Atrybuty ogłoszenia"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:343
+msgid "Add New classified"
+msgstr "Dodaj ogłoszenie"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:344
+msgid "Add New"
+msgstr "Dodaj"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:345
+msgid "New classified"
+msgstr "Dodaj ogłoszenie"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:346
+msgid "Edit classified"
+msgstr "Edytuj ogłoszenie"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:347
+msgid "Update classified"
+msgstr "Aktualizuj ogłoszenie"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:348
+msgid "View classified"
+msgstr "Podejrzyj ogłoszenie"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:349
+msgid "View classifieds"
+msgstr "Podejrzyj ogłoszenia"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:350
+msgid "Search classified"
+msgstr "Szukaj ogłoszenia"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:351
+msgid "Not found"
+msgstr "Nie znaleziono"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:352
+msgid "Not found in Trash"
+msgstr "Nie znaleziono w koszu"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:353
+msgid "Featured Image"
+msgstr "Obrazek wyróżniający"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:354
+msgid "Set featured image"
+msgstr "Ustaw obrazek wyróżniający"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:355
+msgid "Remove featured image"
+msgstr "Usuń obrazek wyróżniający"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:356
+msgid "Use as featured image"
+msgstr "Użyj jako obrazek wyróżniający"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:357
+msgid "Insert into classified"
+msgstr "Dodaj do ogłoszenia"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:358
+msgid "Uploaded to this classified"
+msgstr "Prześlij do ogłoszenia"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:359
+msgid "Classifieds list"
+msgstr "Lista ogłoszeń"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:360
+msgid "Classifieds list navigation"
+msgstr "Lista nawigacyjna ogłoszeń"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:361
+msgid "Filter classifieds list"
+msgstr "Filtr listy ogłoszeń"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:475
+msgid "Contact"
+msgstr "Kontakt"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:477
+msgid "Location"
+msgstr "Lokalizacja"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:597
+msgid "Renewal date"
+msgstr ""
+
+#: vendor/iworks/classifieds/posttypes.php:262
+msgid "Missing template file: %s"
+msgstr "Brakujący szablon: %s"
+
+#: vendor/iworks/classifieds.php:122
+msgid "Classifieds do not have such post type!"
+msgstr "Ogłoszenia nie mają wybranego typu wpisów!"
+
+#: vendor/iworks/classifieds.php:131
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: vendor/iworks/classifieds.php:134
+msgid "Donate"
+msgstr "Złóż datek"
+
+#: vendor/iworks/options/options.php:237
+msgid "An error occurred while getting the configuration."
+msgstr "Wystąpił błąd w czasie pobierania konfiguracji."
+
+#: vendor/iworks/options/options.php:734
+msgid "Upload image"
+msgstr "Dodaj obrazek"
+
+#: vendor/iworks/options/options.php:740
+msgid "Delete image"
+msgstr "Skasuj obrazek"
+
+#: vendor/iworks/options/options.php:808
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: vendor/iworks/options/options.php:1613
+msgid "Country"
+msgstr "Kraj"
+
+#: vendor/iworks/options/options.php:1614
+msgid "City"
+msgstr "Miasto"
+
+#: vendor/iworks/options/options.php:1615
+msgid "Street"
+msgstr "Ulica"
+
+#: vendor/iworks/options/options.php:1616
+msgid "ZIP code"
+msgstr "Kod pocztowy"
+
+#: vendor/iworks/options/options.php:1765
+msgid "OFF"
+msgstr "Wyłącz"
+
+#: vendor/iworks/options/options.php:1766
+msgid "ON"
+msgstr "Włącz"
+
+#: vendor/iworks/rate/rate.php:373
+msgid ""
+"Hey %1$s, you've been using %2$s for a while now, and we hope you're happy "
+"with it."
+msgstr ""
+"Spędziliśmy mnóstwo czasu tworząc tę darmową wtyczkę i bylibyśmy wdzięczni "
+"za pozytywne jej ocenienie."
+
+#: vendor/iworks/rate/rate.php:373
+msgid ""
+"We've spent countless hours developing this free plugin for you, and we "
+"would really appreciate it if you dropped us a quick rating!"
+msgstr ""
+"Spędziliśmy mnóstwo czasu tworząc tę darmową wtyczkę i bylibyśmy wdzięczni "
+"za pozytywne jej ocenienie!"
+
+#: vendor/iworks/rate/rate.php:388
+msgid "Thanks :)"
+msgstr "Dzięki! :)"
+
+#: vendor/iworks/rate/rate.php:391
+msgid "Rate %s"
+msgstr "Ocena %s"
+
+#: vendor/iworks/rate/rate.php:396
+msgid "Saving"
+msgstr "Zapisywanie"
+
+#: vendor/iworks/rate/rate.php:397
+msgid "No thanks"
+msgstr "Nie dziękuję"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:239
+msgctxt "classified"
+msgid "Expired"
+msgstr "Wygasło"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:320
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr "Kategorie"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:321
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Kategoria"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:336
+msgctxt "classified General Name"
+msgid "Classifieds"
+msgstr "Ogłoszenia"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:337
+msgctxt "classified Singular Name"
+msgid "Classified"
+msgstr "Ogłoszenie"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:374
+#, fuzzy
+msgctxt "slug for archive"
+msgid "simple-classifieds"
+msgstr "Podejrzyj ogłoszenia"
+
+#: vendor/iworks/classifieds/posttypes/classified.php:381
+msgctxt "slug for single classified"
+msgid "classified"
+msgstr "ogloszenie"
+
+#~ msgctxt "slug for archive"
+#~ msgid "classifieds"
+#~ msgstr "ogłoszenia"
+
+#~ msgid "by <strong>%s</strong>"
+#~ msgstr "przez <strong>%s</strong>"
+
+#, fuzzy
+#~ msgid "Published: %1$s (%2$s ago)"
+#~ msgstr "%1$s (%2$s temu)"
+
+#~ msgid "Contact Person"
+#~ msgstr "Osoba kontaktowa"
+
+#~ msgid "Phone number"
+#~ msgstr "Numer telefonu"
+
+#~ msgid "Fleet Manager"
+#~ msgstr "Manager Floty"
